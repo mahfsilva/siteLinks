@@ -2,10 +2,15 @@ body {
     background-color: hsl(0, 0%, 8%);
     font-family: "Inter", sans-serif;
     width: 1120px;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     padding: 50px;
     color:white;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 
 a{
@@ -54,6 +59,7 @@ ul{
 .btn-links {
     background: hsl(0, 0%, 20%);
     font-size: 14px;
+    color:white;
     font-weight: 700;
     width: 300px;
     height:40px;
